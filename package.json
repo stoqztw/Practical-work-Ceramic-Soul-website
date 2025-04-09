@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "postcss-pxtorem": "^6.1.0",
+    "sass": "^1.86.3",
+    "vite": "^6.2.5"
+  },
+  "name": "ceramic_soul_webpage",
+  "version": "1.0.0",
+  "description": "Ceramic Soul web page. This is practice work of my course.",
+  "main": "vite.config.js",
+  "dependencies": {
+    "esbuild": "^0.25.2",
+    "nanoid": "^3.3.11",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.5.3",
+    "rollup": "^4.39.0",
+    "source-map-js": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stoqztw",
+  "license": "ISC"
+}

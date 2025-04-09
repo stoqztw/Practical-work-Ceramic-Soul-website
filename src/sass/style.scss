@@ -1,0 +1,15 @@
+// libs
+@use "/src/sass/libs/icons_font.css";
+@use "/src/sass/libs/modern-normalize.min.css";
+
+// base
+@use "/src/sass/base/variables.scss" as *;
+@use "/src/sass/base/basic.scss";
+
+// ui
+@use "/src/sass/ui/titles.scss";
+@use "/src/sass/ui/buttons.scss";
+
+// blocks
+@use "/src/sass/blocks/header.scss";
+@use "/src/sass/blocks/promo.scss";
