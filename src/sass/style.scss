@@ -1,8 +1,8 @@
 // libs
+@use "bootstrap/scss/bootstrap-grid";
+@use "bootstrap/scss/bootstrap-utilities";
 @use "/src/sass/libs/icons_font.css";
 @use "/src/sass/libs/modern-normalize.min.css";
-@use "/src/sass/libs/bootstrap-grid.min.css";
-@use "/src/sass/libs/bootstrap-utilities.min.css";
 
 // base
 @use "/src/sass/base/variables.scss" as *;
