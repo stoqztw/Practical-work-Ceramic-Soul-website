@@ -1,6 +1,4 @@
 // libs
-@use "bootstrap/scss/bootstrap-grid";
-@use "bootstrap/scss/bootstrap-utilities";
 @use "/src/sass/libs/icons_font.css";
 @use "/src/sass/libs/modern-normalize.min.css";
 
@@ -15,3 +13,4 @@
 // blocks
 @use "/src/sass/blocks/header.scss";
 @use "/src/sass/blocks/promo.scss";
+@use "/src/sass/blocks/activities.scss";

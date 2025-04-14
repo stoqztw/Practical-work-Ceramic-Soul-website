@@ -1,0 +1,28 @@
+@use "/src/sass/base/variables.scss" as *;
+@use "/src/sass/base/mixins.scss" as mixin;
+
+.activities {
+	padding-top: 60px;
+
+    &__wrapper {
+        margin-top: 20px;
+        row-gap: 40px;
+    }
+
+	&__img {
+		margin-top: 40px;
+		box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+	}
+
+	&__desc {
+		@include mixin.description;
+		margin-top: 20px;
+		font-size: 16px;
+		color: $dark-color;
+
+        .activities__desc__selection {
+            color: $ceramic-color;
+            font-weight: 500;
+        }
+	}
+}

@@ -1,14 +1,26 @@
 @use "/src/sass/base/mixins.scss" as mixin;
+@use "/src/sass/base/variables.scss" as *;
 
 .title-h1-italic {
+	@include mixin.title;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 24px;
+}
+
+.title-h2 {
     @include mixin.title;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 24px;
+	font-size: 32px;
+}
+
+.title-h3 {
+    @include mixin.title;
+    font-size: 20px;
 }
 
 @media screen and (min-width: 1920px) {
-    .title-h1-italic {
-        font-size: 32px;
-    }
+	.title-h1-italic {
+		font-size: 32px;
+	}
 }
+

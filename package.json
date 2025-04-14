@@ -1,6 +1,5 @@
 {
   "devDependencies": {
-    "bootstrap": "^5.3.5",
     "postcss-pxtorem": "^6.1.0",
     "sass": "^1.86.3",
     "vite": "^6.2.5"
@@ -10,6 +9,7 @@
   "description": "Ceramic Soul web page. This is practice work of my course.",
   "main": "vite.config.js",
   "dependencies": {
+    "bootstrap": "^5.3.5",
     "esbuild": "^0.25.2",
     "nanoid": "^3.3.11",
     "picocolors": "^1.1.1",
