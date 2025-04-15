@@ -4,11 +4,15 @@
 .git {
 	padding-top: 60px;
 
-    .git__wrapper {
+    &__wrapper {
         padding-top: 60px;
     }
+    
+    &__col {
+        position: relative;
+    }
 
-	.git__img {
+	&__img {
 		display: none;
 	}
 
@@ -18,12 +22,26 @@
         height: 428px;
         background-color: black;
     }
+
+    &__vase {
+        display: none;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .git {
-        .git__wrapper {
-            padding-top: 45px;
+        &__wrapper {
+            padding: 45px 0 0 24px;
+        }
+        .box {
+            width: 300px;
+        }
+
+        &__vase {
+            display: block;
         }
     }
 }
