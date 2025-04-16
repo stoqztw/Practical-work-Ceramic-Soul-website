@@ -1,5 +1,4 @@
 @use "/src/sass/base/variables.scss" as *;
-@use "/src/sass/base/mixins.scss" as mixin;
 
 .git {
 	padding-top: 60px;
@@ -14,11 +13,14 @@
 
 	&__img {
 		display: none;
+		width: 100%;
+		object-fit: cover;
 		box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
 	}
 
 	.box {
 		display: block;
+		margin: 0 auto;
 		width: 340px;
 		height: 428px;
 		background-color: black;
@@ -38,6 +40,7 @@
 			padding: 45px 0 0 24px;
 		}
 		.box {
+			margin: 0 0;
 			width: 300px;
 		}
 
@@ -79,6 +82,10 @@
 			&:last-child {
 				padding: 0 75px 0 147px;
 			}
+		}
+
+		&__img {
+			max-width: 573px;
 		}
 
         &__vase {
