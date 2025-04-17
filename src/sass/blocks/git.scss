@@ -55,9 +55,9 @@
 			border: none;
 		}
 
-		&:invalid {
-			outline: 1px solid $ui-error;
-		}
+		// &:invalid {
+		// 	outline: 1px solid $ui-error;
+		// }
 
 		&::placeholder {
 			color: $ui-disabled;
@@ -114,6 +114,12 @@
 		&__vase {
 			display: block;
 		}
+
+		&__input, &__textarea {
+			width: 300px;
+		}
+
+		
 	}
 }
 
