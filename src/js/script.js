@@ -7,8 +7,33 @@ import 'swiper/css/pagination';
 
 import "/src/sass/style.scss";
 
-const swiper = new Swiper('.swiper', {
-    // configure Swiper to use modules
-    modules: [Navigation, Pagination]
-  });
+const swiper = new Swiper('.works__slider', {
+    slidesPerView: 1,
+    loop: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+
+    breakpoints: {
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 5
+        },
+
+        1920: {
+            breakpoints: 35
+        }
+    },
+
+    modules: [Navigation, Pagination],
+});
 
