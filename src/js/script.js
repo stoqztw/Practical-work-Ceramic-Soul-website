@@ -20,8 +20,8 @@ try {
             clickable: true,
         },
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: ".icon-right_arrow",
+            prevEl: ".icon-left_arrow",
         },
 
         breakpoints: {
