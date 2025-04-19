@@ -2,7 +2,6 @@
 
 .works {
 	padding-top: 60px;
-	padding-bottom: 300px;
 
 	&__slider {
 		margin-top: 40px;
@@ -63,6 +62,10 @@
 			position: relative;
 		}
 
+		.swiper-slide img {
+			width: 100%;
+		}
+
 		.swiper-pagination {
 			bottom: -38px;
 		}
@@ -84,6 +87,24 @@
 
 		.icon-right_arrow {
 			right: 14px;
+		}
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.works {
+		padding-top: 100px;
+
+		&__slider {
+			margin: 80px 85px 0 85px;
+		}
+
+		.icon-left_arrow {
+			left: 42px;
+		}
+
+		.icon-right_arrow {
+			right: 42px;
 		}
 	}
 }

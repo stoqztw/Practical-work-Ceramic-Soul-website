@@ -31,7 +31,8 @@ try {
             },
 
             1920: {
-                breakpoints: 35
+                slidesPerView: 3,
+                spaceBetween: 35
             }
         },
 
