@@ -156,3 +156,21 @@
 		}
 	}
 }
+
+@media screen and (min-width: 1200px) {
+    .footer {
+        &__wrapper {
+            column-gap: 164px;
+        }
+
+        &__col {
+            &:nth-child(n + 2) {
+                margin-top: 0;
+            }
+
+            &:first-child {
+				width: auto;
+			}
+        }
+    }
+}
