@@ -1,0 +1,129 @@
+@use "/src/sass/base/variables.scss" as *;
+
+.footer {
+	margin-top: 95px;
+	padding: 50px 0;
+	background-color: $dark-color;
+
+	&__col:nth-child(n+2) {
+		margin-top: 40px;
+	}
+
+	&__subtitle {
+		display: block;
+		margin-top: 40px;
+		color: $light-color;
+		font-size: 16px;
+		line-height: normal;
+	}
+
+	&__form {
+		margin-top: 40px;
+	}
+
+	&__fieldset {
+		border: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	&__input {
+		display: block;
+		padding: 0;
+		padding-bottom: 15px;
+		width: 293px;
+		height: 32px;
+		background: transparent;
+		border: none;
+		border-bottom: solid 1px $ui-active;
+		color: $light-color;
+
+		&::placeholder {
+			color: $ui-active;
+			font-size: 14px;
+			line-height: normal;
+		}
+
+		&:active,
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&__checkbox {
+		margin-right: 15px;
+		border: 1px solid $dark-color;
+		border-radius: 2px;
+		width: 15px;
+		height: 15px;
+		accent-color: #a22dc6;
+	}
+
+	&__label {
+		color: $light-color;
+		font-size: 14px;
+		line-height: 28px;
+
+		a {
+			margin-left: 3px;
+			color: #a22dc6;
+			text-decoration: none;
+		}
+	}
+
+	&__check-block {
+		margin-top: 20px;
+		display: flex;
+		align-items: center;
+	}
+
+	&__btn {
+		margin-top: 20px;
+	}
+
+	&__list-wrapper {
+		display: flex;
+		width: 212px;
+		column-gap: 66px;
+		row-gap: 40px;
+		flex-wrap: wrap;
+	}
+
+	&__list {
+		ul {
+			padding: 0;
+			margin-top: 40px;
+		}
+
+		li {
+			margin-top: 20px;
+		}
+
+		a {
+			text-decoration: none;
+			color: $light-color;
+			font-size: 16px;
+			line-height: normal;
+		}
+	}
+
+    &__socialmedia-links {
+        margin-top: 40px;
+        display: flex;
+        column-gap: 10px;
+        
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 24px;
+        }
+    }
+
+    &__copyright {
+        margin-top: 40px;
+		color: $light-color;
+		font-size: 14px;
+		line-height: normal;
+		text-align: center;
+	}
+}

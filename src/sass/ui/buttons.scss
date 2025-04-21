@@ -28,6 +28,14 @@
 	}
 }
 
+.btn-sumbit {
+	@include mixin.button;
+	color: $light-color;
+	width: 90px;
+	height: 40px;
+	border-color: $light-color;
+}
+
 @media screen and (min-width: 1200px) {
 	.btn-base {
 		&:hover {

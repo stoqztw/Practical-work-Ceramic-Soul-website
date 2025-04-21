@@ -18,6 +18,13 @@
     font-size: 20px;
 }
 
+.title-h4 {
+    @include mixin.title;
+    text-align: left;
+    font-size: 16px;
+    color: $light-color;
+}
+
 @media screen and (min-width: 768px) {
     .title-h2{
         font-size: 36px;
