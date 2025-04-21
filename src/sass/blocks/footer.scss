@@ -159,10 +159,6 @@
 
 @media screen and (min-width: 1200px) {
     .footer {
-        &__wrapper {
-            column-gap: 164px;
-        }
-
         &__col {
             &:nth-child(n + 2) {
                 margin-top: 0;
@@ -171,6 +167,18 @@
             &:first-child {
 				width: auto;
 			}
+        }
+
+        &__copyright {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .footer {
+        &__copyright {
+            margin-top: 18px;
         }
     }
 }
