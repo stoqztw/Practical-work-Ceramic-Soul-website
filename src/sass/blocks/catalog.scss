@@ -110,3 +110,14 @@
 		}
 	}
 }
+
+@media screen and (min-width: 1200px) {
+    .catalog {
+        &__content {
+            padding: 25px 25px 0 25px;
+        }
+        &__content-item {
+            gap: 35px;
+        }
+    }
+}
