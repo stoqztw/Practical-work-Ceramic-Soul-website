@@ -31,6 +31,13 @@
 			display: flex;
 			justify-content: center;
 			column-gap: 30px;
+
+			li {
+				transition: all .2s ease-in-out;
+				&:hover {
+					opacity: 60%;
+				}
+			}
 		}
 	}
 
@@ -50,7 +57,7 @@
 		width: 100vw;
 		height: 100vh;
 		background-color: $light-color;
-		transition: transform .4s;
+		transition: transform 0.4s;
 
 		&_active {
 			transform: translateX(100%);
