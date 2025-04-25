@@ -45,6 +45,7 @@
 
 	&__content-item {
 		display: flex;
+		align-items: flex-start;
 		flex-wrap: wrap;
 		gap: 20px;
 	}
@@ -63,8 +64,9 @@
 	}
 
 	&__card-info {
-		padding: 11px 12px;
+		padding: 11px 12px 16px 12px;
 		border: 1px solid $dark-color;
+		border-top: none;
 	}
 
 	&__card-name,
@@ -109,6 +111,11 @@
 
 		&__content-card {
 			width: 340px;
+
+			img {
+				max-height: 198px;
+				object-fit: cover;
+			}
 		}
 	}
 }
