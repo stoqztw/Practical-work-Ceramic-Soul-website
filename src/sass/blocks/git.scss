@@ -143,7 +143,7 @@
 			display: block;
 		}
 
-		&__input {
+		&__input, &__textarea {
 			&:hover {
 				outline: 1px solid $dark-color;
 			}
